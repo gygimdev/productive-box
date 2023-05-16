@@ -12,5 +12,5 @@ jobs:
         uses: gygimdev/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 3e858d197a0f097727e743eb1f53ce10
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
